@@ -1,0 +1,471 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-cygwin
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+ 
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Wed Jul  6 22:22:39 2022
+
+# Variables
+
+ 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_301
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\amkusharma
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+LOCALAPPDATA = C:\Users\amkusharma\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-59db80ab-d145-4814-aaf9-812aecb3a6e4-sock
+# environment
+WSLENV = BASH_ENV/u
+# environment
+VSCODE_CWD = C:\WINDOWS\system32
+# makefile (from 'Makefile', line 4)
+PROMU = $(GOPATH)/bin/promu
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\opscode\chef-workstation\modules\
+# default
+MAKE_COMMAND := make
+# environment
+USERDNSDOMAIN = AXWAY.INT
+# makefile (from 'Makefile', line 2)
+GOPATH := C
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7508_GTVZPXGRQSEQXDEO
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\amkusharma\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = /cygdrive/c/Users/AMKUSH~1/AppData/Local/Temp
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\amkusharma\OneDrive
+# makefile
+CURDIR := /cygdrive/c/Users/amkusharma/Desktop/newpro/project/gluster_exporter/gluster_exporter
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+!C: = c:\Users\amkusharma\Desktop\newpro\project\gluster_exporter\gluster_exporter
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+ARTCPPORT = 2000
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 7508
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+__PSLOCKDOWNPOLICY = 0
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 6)
+GOLINTER = $(GOPATH)/bin/gometalinter
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from 'Makefile', line 1)
+GO = go
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-cygwin
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := /bin/sh
+# environment
+HOMEPATH = \Users\amkusharma
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /cygdrive/c/Program Files (x86)/Microsoft SDKs/Azure/CLI2/wbin:/cygdrive/c/Program Files/Common Files/Oracle/Java/javapath:/cygdrive/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH:/cygdrive/c/Strawberry/c/bin:/cygdrive/c/Strawberry/perl/site/bin:/cygdrive/c/Strawberry/perl/bin:/cygdrive/c/Program Files/Go/bin:/cygdrive/c/Program Files/nodejs:/cygdrive/c/maven/bin:/cygdrive/c/opscode/chef-workstation/bin:/cygdrive/c/Program Files/Amazon/AWSCLIV2:/cygdrive/c/devtools/terraform:/usr/bin:/cygdrive/c/Program Files/PuTTY:/cygdrive/c/Program Files/Docker/Docker/resources/bin:/cygdrive/c/ProgramData/DockerDesktop/version-bin:/cygdrive/c/HashiCorp/Vagrant/bin:/cygdrive/c/Program Files/MySQL/MySQL Shell 8.0/bin:/cygdrive/c/Users/amkusharma/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Users/amkusharma/AppData/Local/Programs/Microsoft VS Code/bin:/cygdrive/c/Users/amkusharma/AppData/Local/Programs/Git/cmd:/cygdrive/c/Users/amkusharma/go/bin:/cygdrive/c/Users/amkusharma/AppData/Roaming/npm:/cygdrive/c/Program Files/heroku/bin:/cygdrive/c/Program Files/JetBrains/PyCharm Community Edition 2021.3.2/bin:/usr/bin
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = ITEM-S083227
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+LOGONSERVER = \\WPTXDC8
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = amkusharma
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = AXWAY
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# environment
+BASH_ENV = /etc/bash.bashrc
+# makefile
+.DEFAULT_GOAL := info
+# makefile (from 'Makefile', line 5)
+GODEP = $(GOPATH)/bin/dep
+# default
+MAKE_VERSION := 4.3
+ 
+# 'override' directive
+.SHELLSTATUS := 0
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+UATDATA = C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+# environment
+USERDOMAIN_ROAMINGPROFILE = AXWAY
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\amkusharma\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# makefile (from 'Makefile', line 3)
+pkgs = $(shell $(GO) list ./... | grep -v /vendor/)
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+M2_HOME = C:\maven
+# environment
+PYCHARM COMMUNITY EDITION = C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;
+# environment
+GOMODCACHE = C:\Users\amkusharma\go\pkg\mod
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /cygdrive/c/Users/amkusharma/
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# makefile (from 'Makefile', line 7)
+BIN_DIR = $(shell pwd):x
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = /cygdrive/c/Users/AMKUSH~1/AppData/Local/Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\37daa4cc0521cc31b8cce75dd287ae83-1.68.1-main-sock
+# environment
+TERM = xterm-256color
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 8)
+TARGET = gluster_exporter
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+PROCESSOR_REVISION = 8e0c
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+# variable set hash-table stats:
+# Load=118/1024=12%, Rehash=0, Collisions=14/168=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 3596653533, inode 8725724278119038): 24 files, no impossibilities.
+
+# 24 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+C/bin/dep:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 62):
+	@GOOS=$(shell uname -s | tr A-Z a-z) \
+		GOARCH=$(subst x86_64,amd64,$(patsubst i%86,386,$(shell uname -m))) \
+		$(GO) get -u github.com/golang/dep/cmd/dep
+
+lint:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 67):
+	@GOOS=$(shell uname -s | tr A-Z a-z) \
+		GOARCH=$(subst x86_64,amd64,$(patsubst i%86,386,$(shell uname -m))) \
+		$(GO) get -u github.com/alecthomas/gometalinter
+
+docker: gotest build
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 21):
+	docker build -t gluster-exporter-test .
+	docker run --rm --privileged=true -p 9189:9189 -p 24007:24007 -p 24009-24108:24009-24108/tcp -i -v gluster-test:/data gluster-exporter-test
+
+gometalinter: C/bin/gometalinter
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 57):
+	@echo ">> linting code"
+	@$(GOLINTER) --install > /dev/null
+	@$(GOLINTER) --config=./.gometalinter.json ./...
+
+promu-build: gotest promu
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 42):
+	$(PROMU) build
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-06 22:17:02.1536255
+#  File has been updated.
+#  Successfully updated.
+
+depcheck: C/bin/dep
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 53):
+	@echo ">> ensure vendoring"
+	@$(GODEP) ensure
+
+dep:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 62):
+	@GOOS=$(shell uname -s | tr A-Z a-z) \
+		GOARCH=$(subst x86_64,amd64,$(patsubst i%86,386,$(shell uname -m))) \
+		$(GO) get -u github.com/golang/dep/cmd/dep
+
+C/bin/gometalinter:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 67):
+	@GOOS=$(shell uname -s | tr A-Z a-z) \
+		GOARCH=$(subst x86_64,amd64,$(patsubst i%86,386,$(shell uname -m))) \
+		$(GO) get -u github.com/alecthomas/gometalinter
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 48):
+	@echo ">> cleaning up"
+	@find . -type f -name '*~' -exec rm -fv {} \;
+	@$(RM) $(TARGET)
+
+info:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 11):
+	@echo "build: Go build"
+	@echo "docker: build and run in docker container"
+	@echo "gometalinter: run some linting checks"
+	@echo "gotest: run go tests and reformats"
+
+promu:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 37):
+	@GOOS=$(shell uname -s | tr A-Z a-z) \
+		GOARCH=$(subst x86_64,amd64,$(patsubst i%86,386,$(shell uname -m))) \
+		$(GO) get -u github.com/prometheus/promu
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+vet:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 33):
+	@echo ">> vetting code"
+	@$(GO) vet $(pkgs)
+
+build: depcheck C/bin/promu gotest
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
+	@echo ">> building binaries"
+	@$(PROMU) build
+
+C/bin/promu:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 37):
+	@GOOS=$(shell uname -s | tr A-Z a-z) \
+		GOARCH=$(subst x86_64,amd64,$(patsubst i%86,386,$(shell uname -m))) \
+		$(GO) get -u github.com/prometheus/promu
+
+tarball: build promu
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 45):
+	@$(PROMU) tarball $(BIN_DIR)
+
+format:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 29):
+	@echo ">> formatting code"
+	@$(GO) fmt $(pkgs)
+
+.PHONY: all format vet build gotest promu promu-build clean C/bin/promu C/bin/dep dep depcheck C/bin/gometalinter lint
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+gotest: vet format
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@echo ">> running tests"
+	@$(GO) test -short $(pkgs)
+
+# files hash-table stats:
+# Load=22/1024=2%, Rehash=0, Collisions=0/66=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 46 / storage = 420 B / avg = 9 B
+# current buf: size = 8162 B / used = 420 B / count = 46 / avg = 9 B
+
+# strcache performance: lookups = 95 / hit rate = 51%
+# hash-table stats:
+# Load=46/8192=1%, Rehash=0, Collisions=0/95=0%
+# Finished Make data base on Wed Jul  6 22:22:39 2022
+
+ 

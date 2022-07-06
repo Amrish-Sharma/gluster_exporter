@@ -1,0 +1,1 @@
+{"buildTargets":["C/bin/dep","C/bin/gometalinter","C/bin/promu","all","build","clean","dep","depcheck","docker","format","gometalinter","gotest","info","lint","promu","promu-build","tarball","vet"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

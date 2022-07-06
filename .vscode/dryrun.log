@@ -1,0 +1,9 @@
+make: Entering directory '/cygdrive/c/Users/amkusharma/Desktop/newpro/project/gluster_exporter/gluster_exporter'
+ 
+echo "build: Go build"
+echo "docker: build and run in docker container"
+echo "gometalinter: run some linting checks"
+echo "gotest: run go tests and reformats"
+ 
+make: Leaving directory '/cygdrive/c/Users/amkusharma/Desktop/newpro/project/gluster_exporter/gluster_exporter'
+ 
