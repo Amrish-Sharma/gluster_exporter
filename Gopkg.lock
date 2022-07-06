@@ -133,7 +133,7 @@
   input-imports = [
     "github.com/prometheus/client_golang/prometheus",
     "github.com/prometheus/client_golang/prometheus/promhttp",
-    "github.com/prometheus/common/log",
+    "k8s.io/klog"",
     "github.com/prometheus/common/version",
     "gopkg.in/alecthomas/kingpin.v2",
   ]
