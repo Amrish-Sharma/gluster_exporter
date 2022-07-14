@@ -7,7 +7,7 @@ Gluster exporter for Prometheus
 ## Installation
 
 ```
-go get github.com/ofesseler/gluster_exporter
+go get github.com/Amrish-Sharma/gluster_exporter
 ./gluster_exporter
 ```
 
