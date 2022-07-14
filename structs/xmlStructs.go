@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"io"
 	"io/ioutil"
-	"k8s.io/klog"
+	log "github.com/sirupsen/logrus"
 )
 
 // VolumeInfoXML struct represents cliOutput element of "gluster volume info" command
@@ -174,12 +174,12 @@ func VolumeHealInfoXMLUnmarshall(cmdOutBuff io.Reader) (VolumeHealInfoXML, error
 	var vol VolumeHealInfoXML
 	b, err := ioutil.ReadAll(cmdOutBuff)
 	if err != nil {
-		klog.Error(err)
+		log.Error(err)
 		return vol, err
 	}
 	err = xml.Unmarshal(b, &vol)
 	if err != nil {
-		klog.Error(err)
+		log.Error(err)
 	}
 	return vol, nil
 }
@@ -189,7 +189,7 @@ func VolumeListXMLUnmarshall(cmdOutBuff io.Reader) (VolumeListXML, error) {
 	var vol VolumeListXML
 	b, err := ioutil.ReadAll(cmdOutBuff)
 	if err != nil {
-		klog.Error(err)
+		log.Error(err)
 		return vol, err
 	}
 	err = xml.Unmarshal(b, &vol)
@@ -201,7 +201,7 @@ func VolumeInfoXMLUnmarshall(cmdOutBuff io.Reader) (VolumeInfoXML, error) {
 	var vol VolumeInfoXML
 	b, err := ioutil.ReadAll(cmdOutBuff)
 	if err != nil {
-		klog.Error(err)
+		log.Error(err)
 		return vol, err
 	}
 	err = xml.Unmarshal(b, &vol)
@@ -213,7 +213,7 @@ func PeerStatusXMLUnmarshall(cmdOutBuff io.Reader) (PeerStatusXML, error) {
 	var vol PeerStatusXML
 	b, err := ioutil.ReadAll(cmdOutBuff)
 	if err != nil {
-		klog.Error(err)
+		log.Error(err)
 		return vol, err
 	}
 	err = xml.Unmarshal(b, &vol)
@@ -225,7 +225,7 @@ func VolumeProfileGvInfoCumulativeXMLUnmarshall(cmdOutBuff io.Reader) (VolumePro
 	var vol VolumeProfileXML
 	b, err := ioutil.ReadAll(cmdOutBuff)
 	if err != nil {
-		klog.Error(err)
+		log.Error(err)
 		return vol, err
 	}
 	err = xml.Unmarshal(b, &vol)
@@ -275,7 +275,7 @@ func VolumeStatusAllDetailXMLUnmarshall(cmdOutBuff io.Reader) (VolumeStatusXML, 
 	var vol VolumeStatusXML
 	b, err := ioutil.ReadAll(cmdOutBuff)
 	if err != nil {
-		klog.Error(err)
+		log.Error(err)
 		return vol, err
 	}
 	err = xml.Unmarshal(b, &vol)
@@ -314,7 +314,7 @@ func VolumeQuotaListXMLUnmarshall(cmdOutBuff io.Reader) (VolumeQuotaXML, error) 
 	var volQuotaXML VolumeQuotaXML
 	b, err := ioutil.ReadAll(cmdOutBuff)
 	if err != nil {
-		klog.Error(err)
+		log.Error(err)
 		return volQuotaXML, err
 	}
 	err = xml.Unmarshal(b, &volQuotaXML)

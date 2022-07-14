@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/ofesseler/gluster_exporter/structs"
-	"k8s.io/klog"
+	log "github.com/sirupsen/logrus"
 )
 
 func execGlusterCommand(arg ...string) (*bytes.Buffer, error) {
@@ -20,7 +20,7 @@ func execGlusterCommand(arg ...string) (*bytes.Buffer, error) {
 	err := glusterExec.Run()
 
 	if err != nil {
-		klog.Errorf("tried to execute %v and got error: %v", arg, err)
+		log.Errorf("tried to execute %v and got error: %v", arg, err)
 		return stdoutBuffer, err
 	}
 	return stdoutBuffer, nil
@@ -58,7 +58,7 @@ func ExecVolumeInfo() (structs.VolumeInfoXML, error) {
 	}
 	volumeInfo, err := structs.VolumeInfoXMLUnmarshall(bytesBuffer)
 	if err != nil {
-		klog.Errorf("Something went wrong while unmarshalling xml: %v", err)
+		log.Errorf("Something went wrong while unmarshalling xml: %v", err)
 		return volumeInfo, err
 	}
 
@@ -75,7 +75,7 @@ func ExecVolumeList() (structs.VolList, error) {
 	}
 	volumeList, err := structs.VolumeListXMLUnmarshall(bytesBuffer)
 	if err != nil {
-		klog.Errorf("Something went wrong while unmarshalling xml: %v", err)
+		log.Errorf("Something went wrong while unmarshalling xml: %v", err)
 		return volumeList.VolList, err
 	}
 
@@ -92,7 +92,7 @@ func ExecPeerStatus() (structs.PeerStatus, error) {
 	}
 	peerStatus, err := structs.PeerStatusXMLUnmarshall(bytesBuffer)
 	if err != nil {
-		klog.Errorf("Something went wrong while unmarshalling xml: %v", err)
+		log.Errorf("Something went wrong while unmarshalling xml: %v", err)
 		return peerStatus.PeerStatus, err
 	}
 
@@ -109,7 +109,7 @@ func ExecVolumeProfileGvInfoCumulative(volumeName string) (structs.VolProfile, e
 	}
 	volumeProfile, err := structs.VolumeProfileGvInfoCumulativeXMLUnmarshall(bytesBuffer)
 	if err != nil {
-		klog.Errorf("Something went wrong while unmarshalling xml: %v", err)
+		log.Errorf("Something went wrong while unmarshalling xml: %v", err)
 		return volumeProfile.VolProfile, err
 	}
 	return volumeProfile.VolProfile, nil
@@ -125,7 +125,7 @@ func ExecVolumeStatusAllDetail() (structs.VolumeStatusXML, error) {
 	}
 	volumeStatus, err := structs.VolumeStatusAllDetailXMLUnmarshall(bytesBuffer)
 	if err != nil {
-		klog.Errorf("Something went wrong while unmarshalling xml: %v", err)
+		log.Errorf("Something went wrong while unmarshalling xml: %v", err)
 		return volumeStatus, err
 	}
 	return volumeStatus, nil
@@ -142,7 +142,7 @@ func ExecVolumeHealInfo(volumeName string) (int, error) {
 	}
 	healInfo, err := structs.VolumeHealInfoXMLUnmarshall(bytesBuffer)
 	if err != nil {
-		klog.Error(err)
+		log.Error(err)
 		return -1, err
 	}
 
@@ -151,7 +151,7 @@ func ExecVolumeHealInfo(volumeName string) (int, error) {
 		var err error
 		count, err = strconv.Atoi(brick.NumberOfEntries)
 		if err != nil {
-			klog.Error(err)
+			log.Error(err)
 			return -1, err
 		}
 		entriesOutOfSync += count
@@ -169,7 +169,7 @@ func ExecVolumeQuotaList(volumeName string) (structs.VolumeQuotaXML, error) {
 	}
 	volumeQuota, err := structs.VolumeQuotaListXMLUnmarshall(bytesBuffer)
 	if err != nil {
-		klog.Errorf("Something went wrong while unmarshalling xml: %v", err)
+		log.Errorf("Something went wrong while unmarshalling xml: %v", err)
 		return volumeQuota, err
 	}
 	return volumeQuota, nil

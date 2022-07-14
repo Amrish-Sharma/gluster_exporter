@@ -1,5 +1,5 @@
 FROM debian:stretch
-MAINTAINER Oliver Fesseler <oliver@fesseler.info>
+LABEL Oliver Fesseler <oliver@fesseler.info>
 
 EXPOSE 9189
 EXPOSE 24007
